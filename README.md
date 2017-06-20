@@ -18,5 +18,5 @@ convert one tab character to four space character
     ./tab2space.py --dir directory  
 ```
 ```bash
-    ./tab2space.py --file file1 file2 --keepname 1  
+    ./tab2space.py --file file1 file2 --keepname
 ```
