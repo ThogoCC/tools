@@ -33,7 +33,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--file", nargs='+', type=str, help='input files')
     parser.add_argument("--dir", nargs='+', type=str, help='input file directory')
-    parser.add_argument("--keepname", type=int, help='don\'t change converted file name')
+    parser.add_argument("--keepname", action="store_true", help='don\'t change converted file name')
     args = parser.parse_args()
     if args.file:
         for filename in args.file:
